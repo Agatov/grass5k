@@ -1,0 +1,44 @@
+@font-face
+  font-family: 'PFCentroSlabPro-Light'
+  src: url('/fonts/PFCentroSlabPro-Light.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'PFCentroSlabPro-Regular'
+  src: url('/fonts/PFCentroSlabPro-Regular.ttf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'PFCentroSlabPro-Medium'
+  src: url('/fonts/PFCentroSlabPro-Medium.ttf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+body
+  padding: 0px
+  margin: 0px
+  font-family: 'PFCentroSlabPro-Regular', 'Helvetica', 'Arial', sans-serif
+  background: #000
+  min-width: 1024px
+
+
+.wrapper
+  width: 960px
+  margin: 0px auto
+
+.clearfix
+  &:after
+    clear: both
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+.relative
+  position: relative
+
+.inheritance-height
+  height: 100%
